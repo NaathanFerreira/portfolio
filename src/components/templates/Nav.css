@@ -1,3 +1,45 @@
 .menu-area {
+    background: linear-gradient(to bottom right, #545454 0%, #cccccc 100%);
+    /* background: linear-gradient(to bottom right,#d08b52 0%,#f5c248 100%); */
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.perfil .nome {
+    color: black;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.perfil p {
+    color: black;
+    font-size: 12px;
+}
+
+hr {
+    display: block;
+    border-top: 5px solid white;
+    border-radius: 2.5px;
+    margin: 10px;
+}
+
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.menu a:hover{
     background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
 }

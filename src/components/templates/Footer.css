@@ -1,3 +1,13 @@
 .footer {
-    background-color: skyblue;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    box-shadow: var(--shadow);
+}
+
+strong {
+    margin-left: 4px;
 }

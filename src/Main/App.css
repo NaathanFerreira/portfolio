@@ -1,11 +1,12 @@
 :root {
-    --nav-width: 190px;
+    --nav-width: 250px;
     --footer-height: 40px;
+    --shadow: 0 2px 23x 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0 rgba(0, 0, 0, 0.6);
 }
 
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .app {
