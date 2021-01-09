@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Nav.css'
 import Foto from '../../assets/imgs/foto.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,25 +8,23 @@ import { faBook, faCode, faFraduationCap, faGraduationCap, faAddressBook } from 
 export default props =>
     <aside className="menu-area">
         <nav className="perfil">
-            <a href="">
-                <img src={Foto} alt="foto" className="mt-3"/>
-            </a>
+            <img src={Foto} alt="foto" className="mt-3"/>
             <p className="nome">NATHAN DE ARAUJO FERREIRA</p>
             <p>DESENVOLVEDOR FRONT END</p>          
         </nav>
         <hr/>
         <nav className="menu">
-            <a href="">
+            <Link to="/conhecimentos">
                 <FontAwesomeIcon icon={faBook}/> Conhecimentos
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/projetos">
                 <FontAwesomeIcon icon={faCode}/> Projetos
-            </a>
-            <a href="">
+            </Link>
+            <Link to="formacao">
                 <FontAwesomeIcon icon={faGraduationCap}/> Formação
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/contato">
                 <FontAwesomeIcon icon={faAddressBook}/> Contato
-            </a>
+            </Link>
         </nav>
     </aside>
