@@ -1,7 +1,7 @@
 .menu-area {
     /* border-right: 2px solid #FFF; */
     box-shadow: 0px 0px 15px #0004;
-    /* background: linear-gradient(to bottom right,#d08b52 0%,#f5c248 100%); */
+    background-image: linear-gradient(to bottom right, white, rgb(47, 240, 47));
 }
 
 .perfil {
@@ -35,9 +35,9 @@
 
 hr {
     display: block;
-    border-top: 2px solid white;
+    border-top: 5px solid white;
     border-radius: 2.5px;
-    margin: 2px 0px 3px 0px;
+    margin: 2px 17px 10px 17px;
 }
 
 .menu a {

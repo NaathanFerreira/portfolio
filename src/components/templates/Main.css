@@ -1,5 +1,5 @@
 main > div {
-    background-color: #FFF;
+    background-image: linear-gradient(to bottom right, rgb(47, 240, 47), white);
     box-shadow: 0px 0px 15px #0004;
     height: 95%;
     display: flex;
