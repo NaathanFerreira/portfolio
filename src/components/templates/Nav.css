@@ -1,5 +1,6 @@
 .menu-area {
-    background: linear-gradient(to bottom right, #545454 0%, #cccccc 100%);
+    /* border-right: 2px solid #FFF; */
+    box-shadow: 0px 0px 15px #0004;
     /* background: linear-gradient(to bottom right,#d08b52 0%,#f5c248 100%); */
 }
 
@@ -9,10 +10,16 @@
     align-items: center;
 }
 
-.perfil img {
-    border-radius: 50%;
+.foto {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.perfil img {
+    width: 150px;
+    height: 210px;
 }
 
 .perfil .nome {
@@ -28,9 +35,9 @@
 
 hr {
     display: block;
-    border-top: 5px solid white;
+    border-top: 2px solid white;
     border-radius: 2.5px;
-    margin: 10px;
+    margin: 2px 0px 3px 0px;
 }
 
 .menu a {

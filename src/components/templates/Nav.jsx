@@ -8,9 +8,11 @@ import { faBook, faCode, faFraduationCap, faGraduationCap, faAddressBook } from 
 export default props =>
     <aside className="menu-area">
         <nav className="perfil">
-            <img src={Foto} alt="foto" className="mt-3"/>
+            <div className="foto mt-3">
+                <img src={Foto} alt="foto"/>
+            </div>
             <p className="nome">NATHAN DE ARAUJO FERREIRA</p>
-            <p>DESENVOLVEDOR FRONT END</p>          
+            <p>DESENVOLVEDOR FRONT-END</p>          
         </nav>
         <hr/>
         <nav className="menu">
